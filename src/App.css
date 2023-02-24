@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input {
+  padding: 1rem;
+  width: 22rem;
+  font-size: 1rem;
+  color: #dddddd;
+}
+
+img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.weather {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #333333;
+  border-radius: 1rem;
+}
+
+.weathermain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.weatherinfo {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.temp {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.loading { 
+  font-size: 2.2rem;
+  margin: 1rem;
+}
