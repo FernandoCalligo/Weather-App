@@ -72,7 +72,7 @@ function App() {
           <div className="weathermain">
             <h2>{weatherData.name}</h2>
             <img
-              src={`./src/assets/${weatherData.weather[0].main}.png`}
+              src={`/assets/${weatherData.weather[0].main}.png`}
               alt={weatherData.weather[0].description}
             />
           </div>
